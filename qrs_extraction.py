@@ -28,7 +28,7 @@ def extract_qrs_borders(events: List) -> List[Tuple[int, int]]:
     return borders
 
 
-def extract_leads(waves: Dict) -> Dict[str, np.ndarray]:
+def extract_leads(waves: List) -> Dict[str, np.ndarray]:
     """
     Extracts signal from lead and converts it to np array
     """
